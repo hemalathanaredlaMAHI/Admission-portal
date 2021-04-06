@@ -1,0 +1,78 @@
+	<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var i=1;
+		var t=0;
+		function Imag()
+		{
+			if(i==0)
+			{
+				window.location="http://msitprogram.net/admissions/";
+			}
+			if(i==1)
+			{
+				document.getElementById("im").src="slideshow/numbers/10.jpg";
+				i=2;
+			}
+			else if(i==2)
+			{
+				document.getElementById("im").src="slideshow/numbers/9.jpg";
+				i=3;
+			}
+
+			else if(i==3)
+			{
+				document.getElementById("im").src="slideshow/numbers/8.jpg";
+				i=4;
+			}
+			else if(i==4)
+			{
+				document.getElementById("im").src="slideshow/numbers/7.jpg";
+				i=5;
+			}
+			else if(i==5)
+			{
+				document.getElementById("im").src="slideshow/numbers/6.jpg";
+				i=6;
+			}
+			else if(i==6)
+			{
+				document.getElementById("im").src="slideshow/numbers/5.jpg";
+				i=7;
+			}
+			else if(i==7)
+			{
+				document.getElementById("im").src="slideshow/numbers/4.jpg";
+				i=8;
+			}
+
+			else if(i==8)
+			{
+				document.getElementById("im").src="slideshow/numbers/3.jpg";
+				i=9;
+			}
+			else if(i==9)
+			{
+				document.getElementById("im").src="slideshow/numbers/2.jpg";
+				i=10;
+			}
+			else if(i==10)
+			{
+				document.getElementById("im").src="slideshow/numbers/1.jpg";
+				i=0;
+			}
+
+			k=setTimeout("Imag()",1000);
+		}
+	</script>
+</head>
+<body onLoad="Imag()" bgcolor="black">
+<!----------------------------------------Title Begins--------------------------------->
+<table width="100%" height="100%" align="center">
+		<tr>
+		<td height="100%" align="center">
+		<img src="slideshow/numbers/10.jpg" id="im" >
+		</td>
+</table>
+</body>
