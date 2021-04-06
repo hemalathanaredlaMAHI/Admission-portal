@@ -1,0 +1,24 @@
+
+
+START_DD_PAYMENT_REQUEST
+******** DD Payment Request- - ******** 
+SUC001-updated success application status 
+SUC002-Inserted dd transaction
+END_DD_PAYMENT_REQUEST
+
+
+
+START_DD_PAYMENT_REQUEST
+******** DD Payment Request- - ******** 
+SUC001-updated success application status 
+SUC002-Inserted dd transaction
+END_DD_PAYMENT_REQUEST
+
+
+
+START_DD_PAYMENT_REQUEST
+******** DD Payment Request- - ******** 
+SUC001-updated success application status 
+SUC002-Inserted dd transaction
+END_DD_PAYMENT_REQUEST
+

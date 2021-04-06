@@ -1,0 +1,74 @@
+{
+    "README.md": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:04:14",
+            "keyStrokeInfo": "",
+            "position": "2,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:04:14",
+            "keyStrokeInfo": "0",
+            "position": "2,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:04:16",
+            "keyStrokeInfo": "-",
+            "position": "2,32"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:04:18",
+            "keyStrokeInfo": "2",
+            "position": "2,33"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:04:18",
+            "keyStrokeInfo": "1",
+            "position": "2,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:09:36",
+            "keyStrokeInfo": "",
+            "position": "2,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:09:37",
+            "keyStrokeInfo": "",
+            "position": "2,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:09:38",
+            "keyStrokeInfo": "",
+            "position": "2,32"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:09:40",
+            "keyStrokeInfo": "",
+            "position": "2,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 06 2021 10:09:40",
+            "keyStrokeInfo": "1",
+            "position": "2,31"
+        }
+    ]
+}
