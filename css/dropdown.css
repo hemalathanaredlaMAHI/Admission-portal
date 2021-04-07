@@ -1,0 +1,100 @@
+.jquerycssmenu{
+font: bold 10px Verdana;
+/*border-bottom: 1px solid black;*/
+padding-left: 15px; /*offset of tabs relative to browser left edge*/
+z-index:200;}
+
+.jquerycssmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+z-index:200;
+}
+
+/*Top level list items*/
+.jquerycssmenu ul li{
+position: relative;
+display: inline;
+float: left;z-index:200;
+}
+
+/*Top level menu link items style*/
+.jquerycssmenu ul li a{
+display: block;
+padding: 5px 10px 5px 10px;
+margin-right: 0px;
+text-align:center;
+font-weight:bold;
+ /*spacing between tabs*/
+/*border: 1px solid #778;*/
+border-right: 1px solid #019efd;
+/*border-left: 1px solid #fff;*/
+width:95px;
+font-size:10px;
+color: #fff;
+text-decoration: none;z-index:200;
+}
+
+.jquerycssmenu ul li a:hover{
+background-color:#019efd;
+color:#fff;
+font-weight:bold;z-index:200;
+}
+	
+/*1st sub level menu*/
+.jquerycssmenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;z-index:200;
+/*border-top: 1px solid black;*/
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jquerycssmenu ul li ul li{
+display: list-item;
+float: none;z-index:200;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jquerycssmenu ul li ul li ul{
+top: 0;z-index:200;
+}
+
+/* Sub level menu links style */
+.jquerycssmenu ul li ul li a{
+font: normal 11px Verdana;
+width: 170px; /*width of sub menus*/
+background: #025394;
+color: #fff;
+padding: 4px 5px;
+list-style:circle;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid #b6d4ec;
+border-right: 0px solid #b6d4ec;
+border-left: 0px solid #b6d4ec;
+text-align:left;z-index:200;
+}
+
+.jquerycssmenu ul li ul li a:hover{ /*sub menus hover style*/
+background-color:#019efd;
+color:#fff;
+font-weight:normal;z-index:200;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 7px;
+right: 5px;
+z-index:200;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 5px;
+right: 5px;
+z-index:200;
+}

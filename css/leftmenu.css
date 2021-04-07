@@ -1,0 +1,47 @@
+/* CSS Document */
+img{border:0px;}
+.flt{float:left; }
+
+.menu{float:left; clear:left; 
+
+font:bold 10px Verdana, Arial, Helvetica, sans-serif;}
+.menu li {
+margin:0px 0px 0px 0px;
+	list-style:url(../images/lbullet.gif) ;
+	}
+.menu a, .menu a:visited {
+	width:168px;
+	height:20px;
+	margin:0px 0px 0px 0px;
+	position:relative;
+	display:block;
+	color:#cbe7f5;
+	text-decoration:none;
+	background: #29296e;
+	border-bottom:1px dotted #999999;
+	padding:4px 0 0 5px;
+	font-weight:bold;
+	
+	}
+*html .menu a, .menu a:visited {
+list-style:url(../images/lbullet.gif);
+	width:168px;
+	height:20px;
+	margin:0px 0px 0px 0px;
+	position:relative;
+	display:block;
+	color:#cbe7f5;
+	text-decoration:none;
+	background: #29296e /*url(../images/menubg2.jpg) no-repeat*/;
+	padding:4px 0 0 5px;
+	font-weight:bold;
+	}
+.menu a:hover{
+background: #45457d /*url(../images/menubg2.jpg) no-repeat;*/ font-weight:bold; color:#fdb830;}
+
+ .menu a:active,
+.menu li.current_page_item a, .menu li.current_page_item a:visited  {
+		text-decoration:none;
+	}	
+.bot{clear:left;}
+	
