@@ -40,10 +40,10 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "admissions@msitprogram.net";
+$mail->Username = "*******";
 
 //Password to use for SMTP authentication
-$mail->Password = "change@2020";
+$mail->Password = "*******";
 
 //Set who the message is to be sent from
 $mail->setFrom('admissions@msitprogram.net', 'First Last');
