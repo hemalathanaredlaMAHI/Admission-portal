@@ -108,8 +108,8 @@ if($post)
 			$mail->SMTPSecure = "ssl"; 
 			$mail->Host       = "smtp.gmail.com";      
 			$mail->Port       = 465;                  
-			$mail->Username   = "admissions@msitprogram.net";
-			$mail->Password   = "change@2020";           
+			$mail->Username   = "*******";
+			$mail->Password   = "*******";           
 			$mail->SMTPKeepAlive = true;
 			$mail->Timeout =10000000;
 			$mail->From       = "msitadmissions@gmail.com"; 
