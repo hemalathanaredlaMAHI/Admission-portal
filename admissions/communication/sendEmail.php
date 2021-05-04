@@ -51,9 +51,9 @@ if ($stmt = $mysqli->prepare("SELECT status FROM  ma_users WHERE email = ?"))
 
 			$mail->Port       = 465;                  
 
-			$mail->Username   = "admissions@msitprogram.net";
+			$mail->Username   = "*******";
 
-			$mail->Password   = "change@2020";           
+			$mail->Password   = "*******";           
 
 			$mail->SMTPKeepAlive = true;
 
