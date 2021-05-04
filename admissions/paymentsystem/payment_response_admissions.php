@@ -203,8 +203,8 @@ else if($response[14] == '0300' )
 					$mail->SMTPSecure = "ssl"; 
 					$mail->Host       = gethostbyname("smtp.gmail.com"); //"smtp.gmail.com";      
 					$mail->Port       = 465;                  
-					$mail->Username   = "admissions@msitprogram.net";
-					$mail->Password   = "change@2020";           
+					$mail->Username   = "*******";
+					$mail->Password   = "*******";           
 					$mail->SMTPKeepAlive = true;
 					$mail->Timeout =100000000;
 					$mail->From       = "msitadmissions@gmail.com"; 
