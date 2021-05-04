@@ -52,9 +52,9 @@ error_log("Got email and app no ".$email." / ".$appno."\n", 3, "logfile.txt");
 
 			$mail->Port       = 465;                  
 
-			$mail->Username   = "admissions@msitprogram.net";
+			$mail->Username   = "*******";
 
-			$mail->Password   = "change@2020";           
+			$mail->Password   = "*******";           
 
 			$mail->SMTPKeepAlive = true;
 
